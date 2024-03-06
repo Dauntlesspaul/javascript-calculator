@@ -27,7 +27,7 @@ function App() {
           }
           else{
 
-          if(formula.length<31 && input.length<31){
+          if(formula.length<28 && input.length<28){
           const userInput = e.target.innerText;
           if(formula===''){
 
