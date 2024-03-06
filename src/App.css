@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Bree+Serif&family=Kanit:wght@300;500&family=Kdam+Thmor+Pro&family=League+Spartan:wght@100..900&family=Merriweather+Sans&family=Montserrat:wght@400;500&family=Newsreader:opsz@6..72&family=Oswald&family=Outfit:wght@100..900&family=Poppins&family=Raleway:ital,wght@1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/63f874d192fb3892d88d5e26f942b5e2?family=DS-Digital);
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.container{
+width:100%;
+height: 100dvh;
+background-color:rgb(196, 194, 218) ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.frame{
+ width:350px;
+ height: max-content;
+ background-color: black;
+}
+.screen{
+  width:100%;
+  height: 60px;
+  background-color:black;
+  display: grid;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 8px;
+  padding-top: 7px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.screen div{
+  display: flex;
+  justify-content:  flex-end;
+  font-family: 'DS-Digital';
+}
+.screen div:nth-child(1){
+  color: rgb(233, 175, 27);
+}
+.control-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+grid-template-areas: "clear clear divide multiply"
+                      "seven eight nine subtract"
+                      "four five six add"
+                      "one two three equals"
+                      "zero zero decimal equals";
+gap: 1px;
+padding: 7px;
+}
+#clear{
+  grid-area: clear;
+  background-color: brown;
+  height: 63px;
+}
+.control-grid button{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.control-grid button:hover{
+  color:black;
+  border: 1px solid rgb(133, 131, 131);
+}
+button{
+  border: none;
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+}
+#divide{
+grid-area: divide;
+height: 63px;
+background-color: rgb(115, 111, 111);
+}
+#multiply{
+grid-area: multiply;
+height: 63px;
+background-color: rgb(115, 111, 111);
+}
+#seven{
+grid-area: seven;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#eight{
+grid-area: eight;
+height: 63px;
+background-color:rgb(82, 81, 81);
+}
+#nine{
+grid-area: nine;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#subtract{
+grid-area: subtract;
+height: 63px;
+background-color: rgb(115, 111, 111);
+}
+#four{
+grid-area: four;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#five{
+grid-area: five;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#six{
+grid-area: six;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#add{
+grid-area: add;
+height: 63px;
+background-color: rgb(115, 111, 111);
+}
+#one{
+grid-area: one;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#two{
+grid-area: two;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#three{
+grid-area: three;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#equals{
+grid-area: equals;
+background-color: rgb(55, 68, 113);
+}
+#zero{
+grid-area: zero;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
+#decimal{
+grid-area: decimal;
+height: 63px;
+background-color: rgb(82, 81, 81);
+}
