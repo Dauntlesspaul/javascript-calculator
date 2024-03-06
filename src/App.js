@@ -70,7 +70,11 @@ function App() {
             setFormula((formula)=> formula+=userInput)
             }
         else{
-        
+        if(check2 && input.length===1 && userInput==='.'){
+          setInput(()=> "0.")
+          setFormula((formula)=> formula + "0.")
+        }
+        else{
         const lastDigit = input.length -1
         const regexOp = /\D/
         const check = regexOp.test(userInput)
@@ -153,6 +157,7 @@ function App() {
         }
       }
      }
+    }
     }
   }
   }
