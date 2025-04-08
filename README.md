@@ -1,4 +1,4 @@
-# 🧮 JavaScript Calculator
+# 🧮 Simple JavaScript Calculator
 
 A simple and responsive calculator built using **React**. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. Clean UI, keyboard-friendly, and perfect for learning React state management and event handling.
 
@@ -9,7 +9,7 @@ A simple and responsive calculator built using **React**. It performs basic arit
 ## ⚙️ Features
 
 - Addition, subtraction, multiplication, division
-- Clear (AC) and delete (⌫) functions
+- Clear (AC)
 - Handles decimal numbers
 - Keyboard input support 
 - Fully responsive layout
