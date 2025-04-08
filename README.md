@@ -2,7 +2,7 @@
 
 A simple and responsive calculator built using **React**. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. Clean UI, keyboard-friendly, and perfect for learning React state management and event handling.
 
-🌐 [Live Demo](https://your-demo-link.netlify.app](https://dauntless-dev-javascript-calculator.netlify.app/)  
+🌐 [Live Demo](https://dauntless-dev-javascript-calculator.netlify.app/)  
 
 ---
 
