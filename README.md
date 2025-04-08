@@ -1,4 +1,4 @@
-# 🧮 React Calculator
+# 🧮 JavaScript Calculator
 
 A simple and responsive calculator built using **React**. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. Clean UI, keyboard-friendly, and perfect for learning React state management and event handling.
 
